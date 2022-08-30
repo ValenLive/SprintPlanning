@@ -13,8 +13,8 @@ public class Bug extends Ticket {
         this.story = userStory;
     }
 
+    @Override
     public String toString() {
         return "[Bug " + super.getId() + "] " + story.getName() + ": " + super.getName();
-        //"] User Story " + story.getId()
     }
 }

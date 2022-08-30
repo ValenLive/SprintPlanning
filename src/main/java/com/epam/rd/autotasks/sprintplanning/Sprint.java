@@ -71,7 +71,6 @@ public class Sprint {
         Ticket[] newArray = new Ticket[targetIndex];
         System.arraycopy(tickets, 0, newArray, 0, targetIndex);
         return newArray;
-//        return Arrays.copyOf(this.tickets, tickets.length);
     }
 
     public int getTotalEstimate() {

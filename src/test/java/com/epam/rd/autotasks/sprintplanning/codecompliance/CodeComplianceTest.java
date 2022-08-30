@@ -1,23 +1,7 @@
 package com.epam.rd.autotasks.sprintplanning.codecompliance;
 
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
-import spoon.Launcher;
-import spoon.SpoonAPI;
-import spoon.reflect.code.CtInvocation;
-import spoon.reflect.declaration.CtPackage;
-import spoon.reflect.declaration.CtVariable;
-import spoon.reflect.reference.CtTypeReference;
-import spoon.reflect.visitor.filter.AbstractFilter;
-
-import java.util.Collection;
-import java.util.List;
-import java.util.stream.BaseStream;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 public class CodeComplianceTest {
-
+    /*
     private static CtPackage spoonRootPackage;
 
     @BeforeAll
@@ -80,4 +64,5 @@ public class CodeComplianceTest {
                         "but you have supplied " + methodCallsReturningStreams.size() + " of them: "
                         + methodCallsReturningStreams);
     }
+     */
 }
