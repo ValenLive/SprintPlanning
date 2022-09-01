@@ -17,6 +17,11 @@ public class Main {
          * TODO: Streams
          * TODO: Sprint tasks
          */
+        int intValue = Input.getIntegerInput();
+        System.out.println("Int value: " + intValue);
+        String strValue = Input.getStringInput();
+        System.out.println("Str value: " + strValue);
+
         Sprint sprint = new Sprint(40, 3);
 
         sprint.addUserStory(new UserStory(1, "User Registration Entity", 8));
